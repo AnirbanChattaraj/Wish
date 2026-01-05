@@ -1,0 +1,138 @@
+
+        :root {
+            --bg-gradient: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            --gold: #d4af37;
+            --glass: rgba(255,255,255,0.08);
+            --white-soft: rgba(255,255,255,0.92);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100svh;
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg-gradient);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            color: var(--white-soft);
+            padding: 16px;
+        }
+
+        /* ===============================
+           SPARKLES
+        =============================== */
+        .sparkle {
+            position: absolute;
+            top: -10px;
+            width: 4px;
+            height: 4px;
+            background: radial-gradient(circle, #fff, var(--gold));
+            border-radius: 50%;
+            animation: fall linear forwards, glow 2.5s ease-in-out infinite;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(110svh);
+                opacity: 0;
+            }
+        }
+
+        @keyframes glow {
+            0%   { box-shadow: 0 0 6px rgba(212,175,55,0.4); }
+            50%  { box-shadow: 0 0 14px rgba(212,175,55,0.9); }
+            100% { box-shadow: 0 0 6px rgba(212,175,55,0.4); }
+        }
+
+        /* ===============================
+           CARD
+        =============================== */
+        .card {
+            width: 100%;
+            max-width: 900px;
+            padding: clamp(28px, 5vw, 70px);
+            background: var(--glass);
+            backdrop-filter: blur(18px);
+            border-radius: 24px;
+            border: 1px solid rgba(255,255,255,0.15);
+            box-shadow:
+                0 30px 80px rgba(0,0,0,0.45),
+                0 0 40px rgba(212,175,55,0.15);
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 6vw, 3.2rem);
+            color: var(--gold);
+            margin-bottom: 14px;
+            text-shadow: 0 0 15px rgba(212,175,55,0.35);
+        }
+
+        h2 {
+            font-size: clamp(1rem, 3.5vw, 1.3rem);
+            font-weight: 400;
+            margin-bottom: 28px;
+            opacity: 0.95;
+        }
+
+        .message {
+            font-size: clamp(0.95rem, 3.2vw, 1.05rem);
+            line-height: 1.85;
+            margin-bottom: 38px;
+        }
+
+        .message span {
+            color: var(--gold);
+            font-weight: 500;
+        }
+
+        .btn {
+            width: 100%;
+            max-width: 280px;
+            padding: 16px 24px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #d4af37, #f5d76e);
+            color: #1a1a1a;
+            font-weight: 500;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 12px 30px rgba(212,175,55,0.35);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 18px 45px rgba(212,175,55,0.6);
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        footer {
+            margin-top: 32px;
+            font-size: 0.85rem;
+            opacity: 0.8;
+        }
+
+        footer span {
+            color: var(--gold);
+        }
+
+        /* ===============================
+           SMALL DEVICES
+        =============================== */
+        @media (max-width: 480px) {
+            footer {
+                font-size: 0.8rem;
+            }
+        }
+    
