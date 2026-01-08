@@ -39,3 +39,5 @@ Google Fonts – Premium typography
 ❤️ Acknowledgement
 
 This project was created with love and care, celebrating a daughter’s birthday through code — blending emotion with technology.
+
+Author>>
