@@ -6,11 +6,11 @@ This project focuses on visual elegance, responsive design, and simple interacti
 
 ✨ Features
 
-🎨 Premium Typography
+🎨 Premium Typography:
 
 Uses Playfair Display and Poppins from Google Fonts for a refined, modern look.
 
-💖 Heartfelt Birthday Message
+💖 Heartfelt Birthday Message:
 
 Carefully written poetic content with emotional depth and warmth.
 
