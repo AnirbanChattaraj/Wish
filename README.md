@@ -36,7 +36,7 @@ JavaScript (Vanilla) – Sparkle animation and interactivity
 
 Google Fonts – Premium typography
 
-❤️ Acknowledgement
+❤️ Acknowledgement:
 
 This project was created with love and care, celebrating a daughter’s birthday through code — blending emotion with technology.
 
