@@ -4,9 +4,9 @@ A premium, elegant, and emotionally crafted birthday webpage built using HTML, C
 
 This project focuses on visual elegance, responsive design, and simple interactivity, making it suitable for both desktop and mobile devices.
 
-✨ Features
+✨ Features:
 
-🎨 Premium Typography:
+🎨 Premium Typography
 
 Uses Playfair Display and Poppins from Google Fonts for a refined, modern look.
 
