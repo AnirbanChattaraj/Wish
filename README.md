@@ -10,19 +10,19 @@ This project focuses on visual elegance, responsive design, and simple interacti
 
 Uses Playfair Display and Poppins from Google Fonts for a refined, modern look.
 
-💖 Heartfelt Birthday Message:
+💖 Heartfelt Birthday Message:-
 
 Carefully written poetic content with emotional depth and warmth.
 
-🌟 Interactive Sparkle Animation:
+🌟 Interactive Sparkle Animation:-
 
 Sparkles fall and glow dynamically when the user clicks the button.
 
-📱 Fully Responsive Design:
+📱 Fully Responsive Design:-
 
 Optimized for mobile, tablet, and desktop screens.
 
-🧼 Clean & Structured Code:
+🧼 Clean & Structured Code:-
 
 Separation of concerns using HTML, CSS, and JavaScript files.
 
